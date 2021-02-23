@@ -1,0 +1,105 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.cf {
+  zoom: 1;
+}
+.cf:before,
+.cf:after {
+  content: "";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+
+.container {
+
+  max-width: 1044px;
+  /* background-image:url(../img/grid.png); */
+  border: 1px solid #000;
+  margin: 20px auto;
+}
+
+header.primary {
+  /* 1020px */
+  width: 97.701%;
+  background: rgba(0, 0, 0, 0.4);
+  /* 12px */
+  margin: 1.149%;
+  padding: 1.176%;
+  float: left;
+}
+
+#content {
+  /* 504px */
+  width: 48.275%;
+  background: rgba(0, 0, 0, 0.6);
+  margin-left: 1.149%;
+  padding: 1.176%;
+  float: left;
+}
+
+aside {
+  /*332px*/
+  width: 31.800%;
+  background: rgba(0, 0, 0, 0.3);
+  margin-left: 1.149%;
+  padding: 1.176%;
+  float: left;
+}
+
+footer.primary {
+  /* 1020px */
+  width: 97.701%;
+  background: rgba(0, 0, 0, 0.4);
+  /* 12px */
+  margin: 1.149%;
+  padding: 1.176%;
+  float: left;
+}
+
+.col-4 {
+  width: 332px;
+  background: green;
+  margin-left: 20px;
+  padding: 20px;
+  float: left;
+}
+
+.col-6 {
+  width: 504px;
+  background: purple;
+  margin-left: 20px;
+  padding: 20px;
+  float: left;
+}
+
+.col-12 {
+  width: 1020px;
+  background: rgba(0, 0, 0, 0.4);
+  margin: 20px;
+  padding: 20px;
+  float: left;
+}
+
+
+@media screen and (min-width:900px){
+  .container{
+  width:800px;
+  }
+}
+
+
+@media screen and (min-width:1100px){
+  .container{
+  width:1000px;
+  }
+}
+
